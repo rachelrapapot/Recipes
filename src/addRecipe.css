@@ -1,0 +1,43 @@
+.custom-form {
+    background-color: black;
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  .custom-form label {
+    color: rgb(185, 145, 37);
+  }
+  
+  .custom-form input,
+  .custom-form textarea {
+    background-color: white;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-form button {
+    background-color: rgb(185, 145, 37);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  .allAdd{
+    width: 98vw;
+    height: 100%;
+    background-color: black;
+    direction: rtl;
+
+  }
+  .custom-form input{
+    color: black;
+  }
+  .custom-form textarea{
+    color: black;
+  }

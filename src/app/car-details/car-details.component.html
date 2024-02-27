@@ -1,0 +1,15 @@
+<div>
+    {{car.id}}
+    {{car.model}}
+    {{car.name}}
+    <div *ngIf="!car.id else noIdTemplate">
+        <p>car no has no id</p>
+    </div>
+    <button (click)="deleteCarDetails()">delete</button>
+    <button (click)="updateCar()">upDate</button>
+</div>
+
+
+<ng-template #noIdTemplate>
+    <div style="border: 5px solid red;"></div>
+</ng-template>

@@ -1,0 +1,22 @@
+<form #formCar="ngForm">
+    <div>
+        <label for="carId:"></label>
+        <input type="text" #carIdModel="ngModel" name="car-id" [(ngModel)]="this.car.id" required minlength="5">
+        <div *ngIf="carIdModel.errors?.['required']">
+            you must write id
+        </div>
+        <div *ngIf="carIdModel.errors?.['minlength']">
+            you must write at least 5 chars
+        </div>
+        <!-- {{carId.className}} -->
+    </div>
+    <div>
+        <label for="carModel:"></label>
+        <input type="text" id="carModel" name="car-model" [(ngModel)]="this.car.model">
+    </div>
+    <div>
+        <label for="carName:"></label>
+        <input type="text" id="carName" name="car-name" [(ngModel)]="this.car.name" required>
+    </div>
+    <button (click)="save()" [disabled]="!formCar.valid">save</button>
+</form>

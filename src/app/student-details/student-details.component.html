@@ -1,0 +1,26 @@
+<!-- <div>
+    {{student.name}}
+    {{student.id}}
+    <div *ngIf="student.id != '0'">
+        <p>the student exist</p>
+    </div>
+     <button (click)="delete(student)">delete</button>
+</div> -->
+
+
+
+
+<!-- ---------------------------- -->
+<form #form="ngForm">
+    <p>שלום {{firstName}}</p>
+    <input type="text" name="firstName1" [(ngModel)]="this.firstName" #firstNameModel="ngModel" #firstNameId required
+        minlength="3" />
+    <input type="text" name="lastName1" [(ngModel)]="this.lastName" #lastNameId required minlength="5" />
+
+    <ng-container *ngIf="firstNameModel.errors">
+        <p *ngIf="firstNameModel.errors['minlength']">you must write at least 3 chars</p>
+        <p *ngIf="firstNameModel.errors['required']">you must write tour name</p>
+    </ng-container>
+    <!-- {{firstNameId.className}} -->
+    <button [disabled]="!form.valid" (click)="save()">save</button>
+</form>

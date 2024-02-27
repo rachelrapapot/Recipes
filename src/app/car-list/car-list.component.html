@@ -1,0 +1,5 @@
+<div *ngFor="let car of cars" style="border: 5px solid #000000">
+    <app-car-details [car]="car" (onDeleteCar)="delete($event)" (onUpdateCar)="updateCar($event)"></app-car-details>
+</div>
+<button (click)="addNewCar()">add new car</button>
+<app-add-new-car *ngIf="this.isAddNewCar" (onSaveCar)="save($event)" [selectedCar]="this.selectedCar"></app-add-new-car>

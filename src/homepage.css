@@ -1,0 +1,36 @@
+.images_home{
+    position: absolute;
+    top:15vw;
+
+}
+
+.imgAll{
+    /* background-image:  url("./images/meat.jpg");
+    background-size: 100%;
+    padding: 4vh; */
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.alert1{
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    position:absolute;
+    top: 5vw;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

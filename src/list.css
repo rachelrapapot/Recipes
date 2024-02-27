@@ -1,0 +1,21 @@
+
+.item{
+    width: 20vw;
+    font-size: larger;
+}
+
+.two{
+    display: flex;
+} 
+.list{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    flex-direction: column;
+}
+.btn{
+border-radius: 0%;
+}

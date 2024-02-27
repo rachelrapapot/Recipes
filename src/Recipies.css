@@ -1,0 +1,78 @@
+.all_recipes{
+   background-color: black;
+   height: 100vh;
+ 
+   width: 98vw;
+   
+}
+/* *{
+    background-color: black;
+} */
+.hcb{
+    background-color: black;
+height: 15vh;
+width: 99vw;
+}
+
+.recipies{
+    position: absolute;
+    top: 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: rgb(185, 145, 37);
+}
+.drp{
+    position: absolute;
+    top:2vw;
+    right: 5vw;
+
+}
+.drp1{
+    position: absolute;
+    top:1vw;
+    right: 10vw;
+}
+.with_selected{
+    position: absolute;
+    top: 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: rgb(185, 145, 37);
+    /* width: 100%;
+    height: 100%; */
+}
+
+.sinun{
+    position: absolute;
+    right: 20vw;
+    top:1vw;
+}
+.sinun input{
+    width: 8vw;
+    height: 3vw;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(185, 145, 37);
+    border-radius:10%;
+
+}
+.sinun select{
+    width: 8vw;
+    height: 3vw;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(185, 145, 37);
+    border-radius:10%
+}
+
+.hidden-option{
+    display: none;
+}

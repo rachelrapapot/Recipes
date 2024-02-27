@@ -1,0 +1,19 @@
+
+.all_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    direction: rtl;
+    color: aliceblue;
+}
+#form input{
+    height: 4vw;
+    width: 50vw;
+}
+#form button{
+    height: 4vw;
+    width: 6vw;
+    font-size: larger;
+}
